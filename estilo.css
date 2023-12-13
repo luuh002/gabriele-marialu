@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mina', sans-serif;
+} /*tamanho padrão em qualquer navegador*/
+
+body{
+    background: url("./img/fundo.jpg");
+}
+
+h1{
+    color: white;
+    margin: 0 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color:rgba(0, 0, 255, 0.308);
+    width: 500px;
+    border-radius: 15px;
+}
+
+h4{
+    color: white;
+    background-color: rgba(137, 43, 226, 0.5);
+    font-size: 17px;
+    padding: 0 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+img{
+    height: 25px;
+    opacity: 0;
+}
+
+.lista{
+    background-color:rgba(183, 114, 248, 0.74);
+    width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+.filter {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .filter select {
+    flex: 1;
+  }
+
+.input{
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color:rgba(76, 0, 130, 0.795);
+    color: white;
+    font-size: 17px;
+    padding: 0 15px;
+    font-weight: 600;
+}
+
+.button:hover{
+    opacity: 0.9;
+} /*muda a cor do botão ao passar com o cursor em cima*/
+
+.button:active{
+    opacity: 0.6;
+} /*muda a cor do botão ao clicar*/
+
+.texto-lista{
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.item{
+    background-color: white;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.item:hover img{
+    opacity: 1;
+} /*mostra os ícones ao passar o cursor por cima*/
+
+.done{
+    background-color: #8fac55;
+}
+
+.rodape{
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
